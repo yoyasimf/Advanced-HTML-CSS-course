@@ -1,0 +1,64 @@
+/* MUSTHEAD styles */
+
+.musthead{
+	height: 750px;
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.header{
+	line-height: 27px;
+}
+
+.header-content{
+	width: 1170px;
+	margin:  0 auto;
+	padding: 40px 0;
+	border-bottom: 1px solid rgba(255,255,255,.15);
+}
+
+nav{
+	float: right;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 60px;
+	font-size: 13px;
+}
+
+.musthead-content{
+	margin-top: 155px;
+}
+
+.musthead-content h1{
+	font-size: 65px;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.musthead-content p{
+	font-size: 22px;
+	color: #fff;
+	margin-bottom: 100px;
+}
+
+.musthead-content .button{
+	color:#fff;
+	padding: 18px 55px;
+	background: #e84545;
+	text-decoration: none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+}

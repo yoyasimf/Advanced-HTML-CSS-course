@@ -1,0 +1,26 @@
+/* DOWNLOAD styles */
+
+#download{
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+#download h3{
+	font-size:28px;
+	margin-bottom: 25px;
+}
+#download p{
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+#download .button{
+	color:#fff;
+	padding: 18px 80px;
+	background: #e84545;
+	text-decoration: none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+}

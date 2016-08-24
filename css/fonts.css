@@ -1,3 +1,4 @@
+/* Add raleway font */
 @font-face {
   font-family: "Raleway";
   src: url('../fonts/raleway-thin.eot');
@@ -62,6 +63,7 @@
   font-style: normal;
 }
 
+/* Add elegant themes icon font */
 @font-face {
 	font-family: 'et-line';
 	src:url('../fonts/et-line.eot');

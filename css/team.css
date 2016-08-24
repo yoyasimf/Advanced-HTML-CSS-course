@@ -1,0 +1,52 @@
+/* TEAM styles */
+
+#team{
+	padding: 100px 0;
+	overflow: hidden;
+}
+#team img{
+	height: 270px;
+	width: auto;
+	margin-bottom: 30px;
+}
+#team h4{
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+#team h5{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #e84545;
+}
+#team p{
+	font-size: 14px;
+	margin: 25px 0;
+	line-height: 22px;
+	color: #6c7279;
+}
+#team .team-member{
+	position: relative;
+	min-height: 570px;
+}
+#team .team-social{
+	position: absolute;
+	bottom: 0;
+}
+#team .team-social li{
+	float: left;
+}
+#team .team-social a{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	margin-right: 5px;
+	border: 1px solid #e8ecee;
+	color: #c6cacc;
+	display: block;
+	border-radius: 2px;
+}
+#team .team-social a:hover{
+	color: #fff;
+	background-color: #e84545;
+}

@@ -1,0 +1,25 @@
+/* FEATURES styles */
+
+#features{
+	padding: 120px 0px 20px 0px;
+}
+#features .row{
+	margin-bottom: 100px
+}
+.icon{
+	font-size: 60px;
+	color:#e84545;
+}
+.feature-content{
+	margin-top: 30px;
+	font-size: 14px;
+}
+.feature-content h5{
+	font-weight: bold;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+.feature-content p{
+	line-height: 22px;
+	color: #6c7279;
+}
