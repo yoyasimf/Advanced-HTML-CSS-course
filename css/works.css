@@ -1,8 +1,6 @@
 /* WORKS styles */
 
 .work-block{
-	width: 25%;
-	float: left;
 	position: relative;
 	overflow: hidden;
 	height: 350px;
