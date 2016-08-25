@@ -34,6 +34,10 @@
 .span11{width: 1070px; float:left; display: inline; margin-right: 30px;}
 .span12{width: 1170px; float:left; display: inline; margin-right: 30px;}
 
+
+.span-half{width: 50%; float: left;}
+.span-quarter{width: 25%;float: left;}
+
 /* Last column in row without margin */
 .span1:last-child{margin-right: 0}
 .span2:last-child{margin-right: 0}

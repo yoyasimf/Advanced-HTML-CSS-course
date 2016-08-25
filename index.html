@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML&CSS Course</title>
+  <!-- Add Cardo font -->
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400i" rel="stylesheet">
   <!-- Add Reset styles -->
   <link rel="stylesheet" href="css/reset.css">
   <!-- Add Font Awesome icon font styles -->
@@ -11,6 +13,8 @@
   <link rel="stylesheet" href="css/fonts.css">
   <!-- Add Grid styles -->
   <link rel="stylesheet" href="css/grid.css">
+  <!-- Add Flexslider styles -->
+  <link rel="stylesheet" href="css/flexslider.css">
   <!-- Add Main styles -->
   <link rel="stylesheet" href="css/main.css">
   <!-- Add Musthead styles -->
@@ -21,10 +25,17 @@
   <link rel="stylesheet" href="css/works.css">
   <!-- Add Team styles -->
   <link rel="stylesheet" href="css/team.css">
+  <!-- Add Testimonials styles -->
+  <link rel="stylesheet" href="css/testimonials.css">
   <!-- Add Download styles -->
   <link rel="stylesheet" href="css/download.css">
   <!-- Add Footer styles -->
   <link rel="stylesheet" href="css/footer.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Add Flexslider script -->
+  <script src="js/jquery.flexslider-min.js"></script>
+  <!-- Add Main script -->
+  <script src="js/main.js"></script>
 </head>
 <body>
 <!-- Musthead section -->
@@ -266,7 +277,40 @@
   </section>
 <!-- Testimonials section -->
   <section id="testimonials">
-    
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <div class="span-half">
+            <div class="client_image">
+              <img src="images/testimonial-1.jpg" />
+            </div>
+          </div>
+          <div class="span-half">
+            <div class="client_text">
+              <blockquote>
+                <p class="client_testimonial">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                <p class="client_cite">Susan Sims, Interaction Designer at XYZ</p>
+              </blockquote>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="span-half">
+            <div class="client_image">
+              <img src="images/testimonial-2.jpg" />
+            </div>
+          </div>
+          <div class="span-half">
+            <div class="client_text">
+              <blockquote>
+                <p class="client_testimonial">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, tempore....”</p>
+                <p class="client_cite">Susan Sims, Interaction Designer at XYZ</p>
+              </blockquote>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </section>
   <section id="download">
     <div class="container">

@@ -1,0 +1,42 @@
+#testimonials{
+	background: #53354a;
+}
+/* start Redefine some flexslider styles */
+.flexslider{
+	border:none;
+	background: transparent;
+}
+.flexslider .flex-control-nav{
+	bottom: 40px;
+	left: 25%;
+	z-index: 10;
+}
+.flexslider .flex-control-nav a{
+	background: rgba(255,255,255,.5);
+}
+.flexslider .flex-control-nav .flex-active, .flexslider .flex-control-nav a:hover{
+	background: rgba(255,255,255,.9);
+}
+/* end Redefine some flexslider styles */
+
+.client_text blockquote{
+	padding: 85px 85px 0px 85px; 
+	color: #fff;
+}
+.client_text blockquote .client_testimonial{
+	font: italic 36px "Cardo", Georgia, "Times New Roman", serif;
+	margin-bottom: 25px;
+}
+.client_text blockquote .client_cite{
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+}
+.client_image{
+	width: 100%;
+	height: 100%;
+}
+.client_image img{
+	width: 100%;
+	height: auto;
+}
