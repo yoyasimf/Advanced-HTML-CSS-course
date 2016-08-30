@@ -4,11 +4,6 @@
 	padding: 100px 0;
 	overflow: hidden;
 }
-#team img{
-	height: 270px;
-	width: auto;
-	margin-bottom: 30px;
-}
 #team h4{
 	font-size: 22px;
 	margin-bottom: 15px;
@@ -23,19 +18,25 @@
 	margin: 25px 0;
 	line-height: 22px;
 	color: #6c7279;
+	min-height: 150px;
 }
-#team .team-member{
+.team-member{
 	position: relative;
 	min-height: 570px;
 }
-#team .team-social{
-	position: absolute;
+.team-member img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+.team-social{
+	position: relative;
 	bottom: 0;
 }
-#team .team-social li{
+.team-social li{
 	float: left;
 }
-#team .team-social a{
+.team-social a{
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
@@ -49,4 +50,10 @@
 #team .team-social a:hover{
 	color: #fff;
 	background-color: #e84545;
+}
+/*
+@media screen and (max-width: 1170px){
+	.team-member{
+		margin-bottom: 30px;
+	}
 }
