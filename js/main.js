@@ -7,6 +7,14 @@ $(window).load(function() {
   //$('.navigation li a').on('click', function(){
   //  $('.navigation').removeClass("open");
   //});
+  
+  $('.nav-toggle').on('click', function(){
+    $('.navigation').toggleClass('open');
+  });
+
+  $('.navigation li a').on('click', function(){
+    $('.navigation').removeClass('open');
+  });
 
   $('.flexslider').flexslider({
     animation: "fade",
