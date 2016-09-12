@@ -1,0 +1,7 @@
+.animated{
+  -webkit-animation-duration: .4s;
+  -moz-animation-duration: .4s;
+  -o-animation-duration: .4s;
+  -ms-animation-duration: .4s;
+  animation-duration: .4s;
+}

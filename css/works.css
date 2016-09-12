@@ -5,9 +5,6 @@
 	overflow: hidden;
 	height: 350px;
 }
-.work-block a:hover .overlay{
-	visibility: visible;
-}
 .overlay{
 	background: rgba(232,69,69,.9);
 	position: absolute;
@@ -17,15 +14,42 @@
 	height: 100%;
 	display: table;
 	visibility: hidden;
+	opacity: 0;
+	transition: opacity .3s ease-in;
+	-webkit-transition: opacity .3s ease-in;
+	-moz-transition: opacity .3s ease-in;
+	-o-transition: opacity .3s ease-in;
 }
 .ovarlay-caption{
 	display: table-cell;
 	vertical-align: middle;
 	color: #fff;
-	font-size:14px;
+	font-size:0.875rem;
 }
 .ovarlay-caption h5{
 	font-weight: bold;
 	text-transform: uppercase;
+	margin-bottom: 60px;
+	transition: margin-bottom .3s ease-in-out;
+	-webkit-transition: margin-bottom .3s ease-in-out;
+	-moz-transition: margin-bottom .3s ease-in-out;
+	-o-transition: margin-bottom .3s ease-in-out;
+}
+.work-block a img{
+	transition: all .3s ease-in;
+
+}
+.work-block a:hover h5{
 	margin-bottom: 10px;
+}
+.work-block a:hover .overlay{
+	visibility: visible;
+	opacity: 1;
+}
+
+.work-block a:hover img{
+	transform: scale(1.2, 1.2);
+	-webkit-transform: scale(1.2, 1.2);
+	-moz-transform: scale(1.2, 1.2);
+	-o-transform: scale(1.2, 1.2);
 }

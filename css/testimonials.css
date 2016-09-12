@@ -21,16 +21,16 @@
 /* end Redefine some flexslider styles */
 
 .client_text blockquote{
-	padding: 85px 85px 0px 85px; 
+	padding: 45px 85px 0px 85px; 
 	color: #fff;
 }
 .client_text blockquote .client_testimonial{
-	font: italic 36px "Cardo", Georgia, "Times New Roman", serif;
+	font: italic 2rem "Cardo", Georgia, "Times New Roman", serif;
 	margin-bottom: 25px;
 }
 .client_text blockquote .client_cite{
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 0.8rem;
 	font-weight: bold;
 }
 .client_image{

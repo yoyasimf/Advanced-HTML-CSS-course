@@ -6,16 +6,19 @@
 	padding-top: 40px;
 }
 #download h3{
-	font-size:28px;
+	font-size:1.75rem;
 	margin-bottom: 25px;
 }
 #download p{
-	font-size: 13px;
+	font-size: 0.8rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 60px;
 }
 #download .button{
+	display: block;
+	width: 300px;
+	margin: 0 auto;
 	color:#fff;
 	padding: 18px 80px;
 	background: #e84545;
@@ -24,4 +27,9 @@
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	-o-border-radius: 3px;
+	transition: width .25s ease-in-out;
+}
+
+#download .button:hover{
+	width: 380px;
 }

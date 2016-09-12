@@ -1,0 +1,136 @@
+
+@media screen and (max-width: 1170px){
+	.header-content{width: 90%;}
+  .client_text blockquote{padding: 40px 60px 0px 60px;}
+  .client_text blockquote .client_testimonial{ font-size: 1.8em;}
+}
+
+@media screen and (max-width: 940px){
+
+	.navigation{
+		visibility: hidden;
+		position: fixed;
+	    background-color: #000;
+	    width: 100%;
+	    height: 100%;
+	    top: 0;
+	    left: 0;
+	    z-index: 99999;
+	}
+
+  .header .nav-toggle {
+    display: block; 
+  }
+
+  .navigation ul{
+    position: relative;
+    top: 45%;
+  }
+
+  .navigation ul li{
+    display: block;
+    margin-bottom: 20px;
+    float: none;
+    text-align: center;
+  }
+
+  .nav-link{
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .nav-link::after{
+    margin-top: 2px;
+  }
+
+	.navigation.open{
+		visibility: visible;
+		opacity: 0.9;
+	}
+
+  .span-xl-half{width: 50%;}
+  .client_text blockquote{padding: 20px 40px 0px 40px;}
+  .client_text blockquote .client_testimonial{ font-size: 1.5em;}
+  .flexslider .flex-control-nav{bottom: 20px;}
+}
+
+@media screen and (max-width: 768px){
+	.span-lg-1 {width: 8.33%; float:left; display: inline; padding-right: 30px;}
+	.span-lg-2 {width: 16.66%; float:left; display: inline; padding-right: 30px;}
+	.span-lg-3 {width: 25%; float:left; display: inline; padding-right: 30px;}
+	.span-lg-4 {width: 33.33%; float:left; display: inline; padding-right: 30px;}
+	.span-lg-5 {width: 41.66%; float:left; display: inline; padding-right: 30px;}
+	.span-lg-6 {width: 50%; float:left; display: inline; padding-right: 30px;}
+	.span-lg-7 {width: 58.33%; float:left; display: inline; padding-right: 30px;}
+	.span-lg-8 {width: 66.66%; float:left; display: inline; padding-right: 30px;}
+	.span-lg-9 {width: 75%; float:left; display: inline; padding-right: 30px;}
+	.span-lg-10{width: 83.33%; float:left; display: inline; padding-right: 30px;}
+	.span-lg-11{width: 91.66%; float:left; display: inline; padding-right: 30px;}
+	.span-lg-12{width: 100%; float:left; display: inline; padding-right: 30px;}
+
+  .musthead{height: 600px;}
+  .musthead-content{margin-top: 30%;}
+  .musthead-content h1{font-size: 3rem;}
+	.span-lg-half{width: 50%;}
+
+  #features .icon{
+    padding-top: 40px;
+  }
+  #features .row:first-child{
+    margin-bottom: 0;
+  }
+  .team-member{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  .client_text blockquote{padding: 10px 20px 0px 20px;}
+  .client_text blockquote .client_testimonial{ font-size: 1em;}
+  .client_text blockquote .client_cite{font-size:  0.6em;}
+}
+
+@media screen and (max-width: 600px){
+	.span-md-1 {width: 8.33%; float:left; display: inline; padding-right: 30px;}
+	.span-md-2 {width: 16.66%; float:left; display: inline; padding-right: 30px;}
+	.span-md-3 {width: 25%; float:left; display: inline; padding-right: 30px;}
+	.span-md-4 {width: 33.33%; float:left; display: inline; padding-right: 30px;}
+	.span-md-5 {width: 41.66%; float:left; display: inline; padding-right: 30px;}
+	.span-md-6 {width: 50%; float:left; display: inline; padding-right: 30px;}
+	.span-md-7 {width: 58.33%; float:left; display: inline; padding-right: 30px;}
+	.span-md-8 {width: 66.66%; float:left; display: inline; padding-right: 30px;}
+	.span-md-9 {width: 75%; float:left; display: inline; padding-right: 30px;}
+	.span-md-10{width: 83.33%; float:left; display: inline; padding-right: 30px;}
+	.span-md-11{width: 91.66%; float:left; display: inline; padding-right: 30px;}
+	.span-md-12{width: 100%; float:left; display: inline; padding-right: 30px;}
+
+	.span-md-half{width: 50%;}
+  .span-md-full{width: 100%;}
+
+  #features{padding-top: 60px;}
+  .musthead-content{margin-top: 40%;}
+  .musthead-content h1{font-size: 2rem;}
+
+  .flexslider .flex-control-nav{
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+  }
+  .client_text{padding-bottom: 20px;}
+
+}
+@media screen and (max-width: 400px){
+	.span-sm-1 {width: 8.33%; float:left; display: inline; padding-right: 30px;}
+	.span-sm-2 {width: 16.66%; float:left; display: inline; padding-right: 30px;}
+	.span-sm-3 {width: 25%; float:left; display: inline; padding-right: 30px;}
+	.span-sm-4 {width: 33.33%; float:left; display: inline; padding-right: 30px;}
+	.span-sm-5 {width: 41.66%; float:left; display: inline; padding-right: 30px;}
+	.span-sm-6 {width: 50%; float:left; display: inline; padding-right: 30px;}
+	.span-sm-7 {width: 58.33%; float:left; display: inline; padding-right: 30px;}
+	.span-sm-8 {width: 66.66%; float:left; display: inline; padding-right: 30px;}
+	.span-sm-9 {width: 75%; float:left; display: inline; padding-right: 30px;}
+	.span-sm-10{width: 83.33%; float:left; display: inline; padding-right: 30px;}
+	.span-sm-11{width: 91.66%; float:left; display: inline; padding-right: 30px;}
+	.span-sm-12{width: 100%; float:left; display: inline; padding-right: 30px;}
+
+	.span-sm-half{width: 50%;}
+}
